@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 250" width="100%" height="100%">
+    <defs>
+        <!-- Filtro para a sombra suave sob o anel -->
+        <filter id="drop-shadow" x="-20%" y="-20%" width="150%" height="150%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.45 0" />
+        </filter>
+    </defs>
+
+    <style>
+        .brand-text-base {
+        font-family: "Arial Black", "Impact", "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 130px;
+        letter-spacing: -1px;
+        }
+    </style>
+
+    <g id="logo-icon">
+        <!-- Sombra projetada na base -->
+        <ellipse cx="150" cy="178" rx="100" ry="32" filter="url(#drop-shadow)" />
+
+        <!-- Anel fino posterior -->
+        <path d="M 50 140 A 100 65 0 0 1 250 140" fill="none" stroke="#2e8b57" stroke-width="3" opacity="0.85" />
+
+        <!-- Base / Arco verde principal -->
+        <path d="M 50 140 A 100 65 0 0 0 250 140 A 108 80 0 0 1 50 140 Z" fill="#2e8b57" />
+
+        <!-- Gota central -->
+        <path d="M 150 25
+             C 152 48 180 82 180 112
+             A 30 30 0 1 1 120 112
+             C 120 82 148 48 150 25 Z" fill="#a4c639" />
+    </g>
+
+    <!-- Texto: Oximar -->
+    <g id="logo-text" transform="translate(275, 178)">
+        <!-- Contorno verde exterior -->
+        <text class="brand-text-base" fill="none" stroke="#0b4d1c" stroke-width="12" stroke-linejoin="round" stroke-linecap="round">Oximar</text>
+
+        <!-- Contorno preto intermédio -->
+        <text class="brand-text-base" fill="none" stroke="#000000" stroke-width="6" stroke-linejoin="round">Oximar
+        </text>
+
+        <!-- Preenchimento interior branco -->
+        <text class="brand-text-base" fill="#ffffff">Oximar</text>
+    </g>
+</svg>

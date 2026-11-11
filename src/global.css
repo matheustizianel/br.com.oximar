@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --color-oximar-lime: #A3E635;
+    --color-oximar-lime-dark: #84CC16;
+    --color-oximar-dark: #0F172A;
+    --color-oximar-green: #15803D;
+    --color-oximar-green-dark: #166534;
+    --color-oximar-surface: #F8FAFC;
+
+    --default-font-family: "Lato", sans-serif;
+}
