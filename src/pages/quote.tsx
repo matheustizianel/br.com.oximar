@@ -317,7 +317,20 @@ export function QuotePage() {
                                 <span className="text-lg">💬</span>
                                 <div>
                                     <p className="text-xs text-slate-500 font-medium">WhatsApp Comercial</p>
-                                    <p className="font-bold text-slate-900">(65) 99215-5901 / (65) 99275-7171</p>
+                                    <p className="font-bold text-slate-900">(65) 99215-5901</p>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://wa.me/5565992757171"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition border border-slate-100"
+                            >
+                                <span className="text-lg">💬</span>
+                                <div>
+                                    <p className="text-xs text-slate-500 font-medium">WhatsApp Comercial</p>
+                                    <p className="font-bold text-slate-900">(65) 99275-7171</p>
                                 </div>
                             </a>
 
