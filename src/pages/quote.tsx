@@ -348,11 +348,11 @@ export function QuotePage() {
                         <div className="text-xs text-slate-600 space-y-2 pt-2 border-t border-slate-100">
                             <p>
                                 <strong className="text-slate-900 font-semibold">Endereço Matriz: </strong>
-                                Rua 03, Nº 300 A5, Bairro São José (Coxipó), Cuiabá - MT • CEP 78080-550
+                                Rua 03, Nº 300 - A8, Jardim Comodoro, Cuiabá - MT • CEP 78080-550
                             </p>
                             <p>
                                 <strong className="text-slate-900 font-semibold">Horário: </strong>
-                                Segunda a Sexta, das 07:30 às 17:30
+                                Segunda a Sexta, das 07:30 às 17:00
                             </p>
                         </div>
 

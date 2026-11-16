@@ -92,7 +92,7 @@ export function BusinessPage() {
                             </li>
                             <li className="flex items-start sm:items-center text-sm font-semibold text-slate-800">
                                 <span className="w-2 h-2 rounded-full bg-oximar-green mt-1.5 sm:mt-0 mr-3 flex-shrink-0"></span>
-                                <span>Locação de equipamentos e cilindros certificados</span>
+                                <span>Locação de cilindros certificados</span>
                             </li>
                             <li className="flex items-start sm:items-center text-sm font-semibold text-slate-800">
                                 <span className="w-2 h-2 rounded-full bg-oximar-green mt-1.5 sm:mt-0 mr-3 flex-shrink-0"></span>

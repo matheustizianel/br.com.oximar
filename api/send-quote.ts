@@ -71,7 +71,7 @@ export async function sendQuoteEmail(
                 Nova Solicitação de Orçamento
             </h2>
             <p style="margin: 4px 0 0; color: #cbd5e1; font-size: 12px;">
-                Recebido através do site Oximar Gases
+                Recebido através do site da Oximar
             </p>
         </div>
 
