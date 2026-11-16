@@ -5,7 +5,7 @@ const TESTIMONIALS = [
         role: 'Gerente Fabril',
     },
     {
-        text: 'Instalação da rede de oxigênio medicinal perfeita para a clínica veterinária.',
+        text: 'Fornecimento de oxigênio medicinal impecável e pontual para a clínica veterinária.',
         author: 'Dra. Camila',
         role: 'Médica Veterinária',
     },

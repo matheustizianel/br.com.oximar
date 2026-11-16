@@ -7,17 +7,15 @@ export function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     const getDesktopNavLinkClass = ({ isActive }: { isActive: boolean }) =>
-        `text-sm font-semibold transition-colors px-3 py-1 rounded-md ${
-            isActive
-                ? 'text-oximar-green border-b-2 border-oximar-green'
-                : 'text-slate-100 hover:text-oximar-green'
+        `text-sm font-semibold transition-colors px-3 py-1 rounded-md ${isActive
+            ? 'text-oximar-green border-b-2 border-oximar-green'
+            : 'text-slate-100 hover:text-oximar-green'
         }`;
 
     const getMobileNavLinkClass = ({ isActive }: { isActive: boolean }) =>
-        `block py-3 px-4 text-base font-semibold rounded-lg transition-colors ${
-            isActive
-                ? 'bg-oximar-surface text-oximar-green border-l-4 border-oximar-green'
-                : 'text-slate-100 hover:bg-slate-50 hover:text-oximar-green'
+        `block py-3 px-4 text-base font-semibold rounded-lg transition-colors ${isActive
+            ? 'bg-oximar-surface text-oximar-green border-l-4 border-oximar-green'
+            : 'text-slate-100 hover:bg-slate-50 hover:text-oximar-green'
         }`;
 
     const closeMenu = () => setIsOpen(false);
@@ -131,7 +129,7 @@ export function Header() {
                             rel="noopener noreferrer"
                             className="w-full py-2.5 bg-oximar-green text-white font-semibold text-center text-sm rounded-lg shadow-sm hover:bg-oximar-green-dark transition"
                         >
-                            Plantão / WhatsApp: (65) 99215-5901
+                            WhatsApp: (65) 99215-5901
                         </a>
                     </div>
                 </div>

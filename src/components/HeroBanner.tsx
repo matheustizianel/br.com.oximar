@@ -11,7 +11,7 @@ export function HeroBanner() {
 
                 {/* Título Principal */}
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-oximar-dark max-w-4xl tracking-tight leading-tight">
-                    Gases Industriais, Medicinais e Engenharia de Redes Canalizadas
+                    Gases Industriais e Medicinais
                 </h1>
 
                 {/* Subtítulo */}

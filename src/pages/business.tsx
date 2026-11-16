@@ -11,8 +11,9 @@ const LOGISTICS_ITEMS = [
     {
         icon: '🚨',
         title: 'EMERGÊNCIA ESTADUAL',
-        badge: 'Até 12h em Todo o MT',
-        desc: 'Sistema ágil de despacho rodoviário emergencial para suprir clínicas e indústrias em qualquer município.',
+        badge: 'Até 12h em Todo o estado MT',
+        desc: 'Sistema ágil de despacho rodoviário emergencial para suprir clínicas e indústrias em qualquer' +
+            ' município mediante o pagamento de uma pequena taxa.',
     },
     {
         icon: '📊',
@@ -31,7 +32,7 @@ const SECTORS = [
     {
         icon: '🏥',
         title: 'Hospitais & Clínicas',
-        desc: 'Oxigénio Medicinal, Óxido Nitroso, ar comprimido medicinal e redes.',
+        desc: 'Oxigénio Medicinal, Óxido Nitroso e ar comprimido medicinal.',
     },
     {
         icon: '🔬',
@@ -46,12 +47,12 @@ export function BusinessPage() {
             {/* 1. HERO INSTITUCIONAL */}
             <section className="bg-oximar-lime text-oximar-dark py-12 md:py-16 px-4 sm:px-6 border-b border-slate-200">
                 <div className="max-w-360 mx-auto text-center flex flex-col items-center">
-          <span className="inline-block bg-oximar-dark text-white text-[11px] sm:text-xs font-bold uppercase tracking-wider px-3.5 py-1.5 rounded-full mb-4 sm:mb-6 shadow-sm">
-            Tradição e Tecnologia em Mato Grosso
-          </span>
+                    <span className="inline-block bg-oximar-dark text-white text-[11px] sm:text-xs font-bold uppercase tracking-wider px-3.5 py-1.5 rounded-full mb-4 sm:mb-6 shadow-sm">
+                        Tradição e Tecnologia em Mato Grosso
+                    </span>
 
                     <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-oximar-green-dark max-w-4xl tracking-tight leading-tight">
-                        Mais de 25 Anos a Fornecer Confiança, Gases e Engenharia Especializada
+                        Mais de 25 Anos fornecendo Confiança e Gases Especializados
                     </h1>
 
                     <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-slate-800 max-w-2xl font-medium">
@@ -74,14 +75,14 @@ export function BusinessPage() {
 
                     {/* Conteúdo Institucional */}
                     <div className="flex flex-col">
-            <span className="text-xs font-bold text-oximar-green uppercase tracking-widest mb-2">
-              Quem Somos & Trajetória
-            </span>
+                        <span className="text-xs font-bold text-oximar-green uppercase tracking-widest mb-2">
+                            Quem Somos & Trajetória
+                        </span>
                         <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-slate-900 leading-snug mb-4">
                             Compromisso genuinamente mato-grossense com seriedade e crescimento
                         </h2>
                         <p className="text-sm sm:text-base text-slate-600 leading-relaxed mb-6">
-                            A atuar no mercado desde 2000, a OXIMAR é uma empresa criada com o objetivo de oferecer ao mercado de Mato Grosso uma alternativa sólida para o fornecimento de Gases Especiais, Medicinais e Industriais, serviços de elaboração e montagem de redes canalizadas e locação de equipamentos.
+                            A atuar no mercado desde 2000, a OXIMAR é uma empresa criada com o objetivo de oferecer ao mercado de Mato Grosso uma alternativa sólida para o fornecimento de Gases Especiais, Medicinais e Industriais e locação de equipamentos.
                         </p>
 
                         <ul className="space-y-3">
@@ -91,7 +92,7 @@ export function BusinessPage() {
                             </li>
                             <li className="flex items-start sm:items-center text-sm font-semibold text-slate-800">
                                 <span className="w-2 h-2 rounded-full bg-oximar-green mt-1.5 sm:mt-0 mr-3 flex-shrink-0"></span>
-                                <span>Engenharia de redes de distribuição de gases e locação de equipamentos</span>
+                                <span>Locação de equipamentos e cilindros certificados</span>
                             </li>
                             <li className="flex items-start sm:items-center text-sm font-semibold text-slate-800">
                                 <span className="w-2 h-2 rounded-full bg-oximar-green mt-1.5 sm:mt-0 mr-3 flex-shrink-0"></span>
@@ -121,8 +122,8 @@ export function BusinessPage() {
                                 <div>
                                     <div className="text-2xl mb-3">{item.icon}</div>
                                     <span className="text-[11px] font-bold uppercase tracking-wider text-oximar-green bg-green-50 px-2.5 py-0.5 rounded-full inline-block mb-2">
-                    {item.badge}
-                  </span>
+                                        {item.badge}
+                                    </span>
                                     <h3 className="text-base font-bold text-slate-900 mb-2">
                                         {item.title}
                                     </h3>
@@ -148,9 +149,9 @@ export function BusinessPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="p-6 rounded-xl border border-slate-200 bg-oximar-surface flex flex-col justify-between">
                             <div>
-                <span className="text-xs font-bold text-oximar-green uppercase tracking-wider">
-                  🛡️ Rastreabilidade
-                </span>
+                                <span className="text-xs font-bold text-oximar-green uppercase tracking-wider">
+                                    🛡️ Rastreabilidade
+                                </span>
                                 <h3 className="text-base sm:text-lg font-bold text-slate-900 mt-1 mb-2">
                                     Padrão ISO 9001 e Laudos Certificados
                                 </h3>
@@ -162,11 +163,11 @@ export function BusinessPage() {
 
                         <div className="p-6 rounded-xl border border-slate-200 bg-oximar-surface flex flex-col justify-between">
                             <div>
-                <span className="text-xs font-bold text-blue-700 uppercase tracking-wider">
-                  🏥 Gases Medicinais
-                </span>
+                                <span className="text-xs font-bold text-blue-700 uppercase tracking-wider">
+                                    🏥 Gases Medicinais
+                                </span>
                                 <h3 className="text-base sm:text-lg font-bold text-slate-900 mt-1 mb-2">
-                                    Linha Medicinal & Parceria Linde
+                                    Linha Medicinal & Parceria Messer
                                 </h3>
                                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                                     Cilindros cuidadosamente tratados e abastecidos sob o mais rígido controlo de pureza da Linde Gases, com foco total na preservação da vida e atendimento hospitalar.

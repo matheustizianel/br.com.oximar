@@ -35,20 +35,12 @@ export function ContactChannels() {
                         <h3 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-3 text-center">
                             Siga Nossas Redes
                         </h3>
-                        <div className="grid grid-cols-2 rounded-lg overflow-hidden shadow-sm border border-slate-200 h-12">
+                        <div className="grid grid-cols-1 rounded-lg overflow-hidden shadow-sm border border-slate-200 h-12">
                             <a
-                                href="https://facebook.com"
+                                href="https://www.instagram.com/oximaroxigenio/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-bold text-xs flex items-center justify-center transition"
-                            >
-                                FACEBOOK
-                            </a>
-                            <a
-                                href="https://instagram.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-[#C026D3] hover:bg-[#A21CAF] text-white font-bold text-xs flex items-center justify-center transition"
+                                className="bg-[linear-gradient(45deg,#405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d)] hover:brightness-90 text-white font-bold text-xs flex items-center justify-center transition"
                             >
                                 INSTAGRAM
                             </a>
